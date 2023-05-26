@@ -37,7 +37,14 @@ type student = {
 type boy = {
   name: string;
 };
+
+type boy2 = {
+  name: string;
+  no: number;
+  height: number;
+};
 type bool = boy extends student ? "yes" : "no"; // bool => 'no'
+type bool2 = boy2 extends student ? "yes" : "no"; // bool => 'yes'
 
 /** infer */
 // 从复杂类型中提取基础类型
