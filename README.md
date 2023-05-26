@@ -22,6 +22,7 @@ npm run build
 npm run test:unit
 ```
 
+```javascript
 |-- src
     |-- views
         |-- Decorator.vue  装饰器校验示例
@@ -31,6 +32,7 @@ npm run test:unit
         |-- index.ts       基础用法示例
         |-- never.ts       never用处示例
         |-- type.ts        top、botton type示例
+```
 
 [ts挑战练习](https://github.com/type-challenges/type-challenges/tree/main)
 
