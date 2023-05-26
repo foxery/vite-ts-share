@@ -3,7 +3,7 @@ import { RouterLink, RouterView } from "vue-router";
 </script>
 
 <template>
-  <RouterLink to="/decorator">Decorator</RouterLink>
+  <RouterLink to="/">Decorator</RouterLink>
   <br />
   <RouterLink to="/trycatch">try catch</RouterLink>
 
